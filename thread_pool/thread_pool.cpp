@@ -1,6 +1,8 @@
 ﻿// thread_pool.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
+#include "thread_pool.h"
+
 #include <iostream>
 
 int main()
