@@ -1,0 +1,36 @@
+---
+BasedOnStyle: Google
+AccessModifierOffset: -2
+AlignAfterOpenBracket: Align
+AlignOperands: true
+AlignTrailingComments: true
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakAfterReturnType: TopLevelDefinitions
+BinPackParameters: true
+BraceWrapping:   
+  AfterFunction: true
+BreakBeforeBraces: Custom
+BreakConstructorInitializers: AfterColon
+ColumnLimit: 120
+ContinuationIndentWidth: 2
+Cpp11BracedListStyle: false
+DerivePointerAlignment: false
+IncludeCategories: 
+  - Regex:           '^<.*\.h>'
+    Priority:        1
+  - Regex:           '^<.*'
+    Priority:        2
+  - Regex:           '^"xcast_.*'
+    Priority:        3
+  - Regex:           '^"(xc_.*|basictypes\.h|build_config\.h)'
+    Priority:        4
+  - Regex:           '.*'
+    Priority:        5
+IndentWidth: 2
+KeepEmptyLinesAtTheStartOfBlocks: true
+MaxEmptyLinesToKeep: 1
+PointerAlignment: Right
+SortIncludes: true
+SpacesBeforeTrailingComments: 1
+TabWidth: 2
+UseTab: Never
